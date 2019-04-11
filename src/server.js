@@ -49,4 +49,4 @@ app.get('/teste', (req, res) => {
 
 //-> Porta para executar a aplicação
 //app.listen(3333);
-server.listen(3333);
+server.listen(process.env.PORT || 3333);
